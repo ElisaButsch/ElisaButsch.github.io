@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+<head>
+	<link rel="stylesheet" href="estilo.css">
+	<meta charset="utf-8">
+	<title>Formulário</title>
+
+</head>
+<body>
+	<h1>Pagina de informacoes de formulario:</h1>
+	<p> <a href="pg1.html">Clique aqui</a> para ir para a página principal do evento</p>
+	<hr>
+	<form>
+	<fieldset>
+		<legend>Dados pessoais:</legend>
+		Nome: <input type="text" name="nome"> <br>
+		Sobrenome: <input type="text" name="sobrenome" > <br>
+		CPF: <input type="number" name="cpf"> <br>
+		<input type="submit" name=""value="Enviar"> <br>
+		<input type="reset" name=""value="Resetar"> <br>
+	</fieldset>
+	<fieldset>
+		<legend>Endereco:</legend>
+		Cidade: <input type="text" name="cidade" required> <br>
+		Rua: <input type="text" name="rua"> <br>
+		CEP: <input type="number" name="cep" checked> <br>
+		<input type="submit" name=""value="Enviar"> <br>
+		<input type="reset" name=""value="Resetar"> <br>
+	</fieldset>
+	<fieldset>
+		<legend>Outros dados:</legend>
+		E-mail: <input type="email" name="email" required> <br>
+		Senha: <input type="password" name="senha"> <br>
+		Turma: <input type="text" name="text" placeholder="Sua turma atual no ifc"> <br>
+		<input type="submit" name=""value="Enviar"> <br>
+		<input type="reset" name=""value="Resetar"> <br>
+	</fieldset>
+	</form>
+	</body>
+</html>
